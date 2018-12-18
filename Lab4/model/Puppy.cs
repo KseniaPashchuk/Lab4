@@ -26,6 +26,6 @@ namespace Lab4.model
 
         public override int GetHashCode() => base.GetHashCode();
 
-        public override string ToString() => $"Dog: Name: {Name};";
+        public override string ToString() => $"Puppy: Name: {Name};";
     }
 }
