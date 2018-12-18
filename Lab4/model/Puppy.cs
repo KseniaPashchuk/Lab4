@@ -19,9 +19,9 @@ namespace Lab4.model
 
         public override bool Equals(object obj)
         {
-            var dog = obj as Dog;
-            return dog != null &&
-                   Name == dog.Name;
+            var puppy = obj as Puppy;
+            return puppy != null &&
+                   Name == puppy.Name;
         }
 
         public override int GetHashCode() => base.GetHashCode();
